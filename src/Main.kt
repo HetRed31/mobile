@@ -31,14 +31,15 @@
 //    println(message)
 //}
 
-//fun swim(speed: String = "fast") {
-//    println("The fish swims $speed")
+// Параметры по умолчанию и именованные аргументы
+//fun swim(speed: String = "fast") {  // Параметр по умолчанию
+//    println("The fish swims $speed")  // Строковый шаблон
 //}
 //
 //fun main() {
-//    swim()   // uses default speed
-//    swim("slow")   // positional argument
-//    swim(speed="turtle-like")   // named parameter
+//    swim()   // uses default speed - вызов с параметром по умолчанию
+//    swim("slow")   // positional argument - позиционный аргумент
+//    swim(speed="turtle-like")   // named parameter - именованный аргумент
 //}
 
 
