@@ -1,14 +1,15 @@
 package example.myapp
 import example.myapp.decor.Choice
-//import example.myapp.decor.Direction
+import example.myapp.decor.Direction
+
 
 
 fun main () {
+//    buildAquarium()
 //    makeFish()
-//     makeDecorations()
-//    println(Direction.EAST.name)
-//    println(Direction.EAST.ordinal)
-//    println(Direction.EAST.degrees)
+    println(Direction.EAST.name)
+    println(Direction.EAST.ordinal)
+    println(Direction.EAST.degrees)
     println(Choice.name)
     Choice.showDescription("pick")
     Choice.showDescription("selection")
@@ -24,10 +25,7 @@ fun main () {
 //    myTower.printSize()
 //}
 //
-//fun main() {
-//    buildAquarium()
-//}
-
+//
 //fun makeFish() {
 //    val shark = Shark()
 //    val pleco = Plecostomus()
