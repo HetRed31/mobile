@@ -5,7 +5,7 @@ import example.myapp.decor.Direction
 
 
 fun main () {
-//    buildAquarium()1
+//    buildAquarium()
 //    makeFish()
     println(Direction.EAST.name)
     println(Direction.EAST.ordinal)
