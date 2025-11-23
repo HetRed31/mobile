@@ -1,4 +1,4 @@
-import java.util.*    // Импорт Java-классов - использование Java класса Random из стандартной библиотеки
+import java.util.*
 
 // Функции с возвращаемыми значениями - функция возвращает String
 fun randomDay() : String {

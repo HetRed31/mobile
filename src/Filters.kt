@@ -1,6 +1,6 @@
 fun main() {
-    val decorations = listOf("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
-//
+//    val decorations = listOf("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+
 //    val eager = decorations.filter { it[0] == 'p' }
 //    println("eager: $eager")
 //
