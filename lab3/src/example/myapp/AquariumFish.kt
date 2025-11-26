@@ -1,5 +1,4 @@
-//package example.myapp
-//
+package example.myapp//
 //// Интерфейс для определения действия рыбы - питания
 //interface FishAction {
 //    fun eat()  // Метод, который должна реализовать каждая рыба

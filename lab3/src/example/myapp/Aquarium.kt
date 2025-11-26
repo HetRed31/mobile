@@ -1,6 +1,4 @@
-//package example.myapp
-//import java.lang.Math.PI
-//
+package example.myapp//
 //// Базовый класс аквариума с открытыми (наследуемыми) свойствами
 //open class Aquarium (open var length: Int = 100, open var width: Int = 20, open var height: Int = 40)   {
 //
