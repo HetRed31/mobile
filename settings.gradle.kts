@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "lab4"
 include(":app")
+include(":dice_roller_5_1")
