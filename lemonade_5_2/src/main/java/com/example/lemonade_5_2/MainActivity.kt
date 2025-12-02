@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -37,6 +38,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.lemonade_5_2.ui.theme.Lab4Theme
 
 class MainActivity : ComponentActivity() {
@@ -148,8 +151,9 @@ fun LemonTextAndImage(
         ) {
             Button(
                 onClick = onImageClick,
-                shape = RoundedCornerShape(dimensionResource(R.dimen.button_corner_radius)),
-                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer)
+                shape = RoundedCornerShape(4.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer),
+                border = BorderStroke(2.dp, Color(105, 205, 216))
             ) {
                 Image(
                     painter = painterResource(drawableResourceId),
@@ -160,10 +164,11 @@ fun LemonTextAndImage(
                         .padding(dimensionResource(R.dimen.button_interior_padding))
                 )
             }
-            Spacer(modifier = Modifier.height(dimensionResource(R.dimen.padding_vertical)))
+            Spacer(modifier = Modifier.height(16.dp))
             Text(
                 text = stringResource(textLabelResourceId),
-                style = MaterialTheme.typography.bodyLarge
+                style = MaterialTheme.typography.bodyLarge,
+                fontSize = 20.sp
             )
         }
     }
