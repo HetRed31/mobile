@@ -41,5 +41,3 @@
 //    swim("slow")   // positional argument - позиционный аргумент
 //    swim(speed="turtle-like")   // named parameter - именованный аргумент
 //}
-
-
